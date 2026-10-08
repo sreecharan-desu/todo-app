@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Todos",
+    "slug": "todo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sreecharandesu.todos"
+    },
+    "android": {
+      "package": "com.sreecharandesu.todos",
+      "adaptiveIcon": {
+        "backgroundColor": "#F4F6F5",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
